@@ -502,7 +502,7 @@ elif menu == "Question based graph":
                     
                     img = base64_to_image(chart.raster)
                     if img:
-                        st.image(img, use_column_width=True)
+                        st.image(img, use_container_width=True)
                         
                         # Display code and download options
                         if hasattr(chart, 'code'):
@@ -599,7 +599,7 @@ elif menu == "Chart Type Explorer":
                     
                     img = base64_to_image(chart.raster)
                     if img:
-                        st.image(img, use_column_width=True)
+                        st.image(img, use_container_width=True)
                         
                         if hasattr(chart, 'code'):
                             with st.expander("Generated Code"):

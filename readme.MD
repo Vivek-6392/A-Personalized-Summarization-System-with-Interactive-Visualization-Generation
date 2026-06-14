@@ -1,4 +1,4 @@
-# 📄 Research Paper Analyzer & Visualization Assistant
+# 📄 PaperMind AI
 
 An end-to-end AI-powered tool built using **Python**, **Streamlit**, and **local LLM inference** to automate the understanding, summarization, visualization, and analysis of scientific research papers and datasets.
 
